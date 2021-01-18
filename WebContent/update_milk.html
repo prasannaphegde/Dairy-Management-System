@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Login Form Design</title>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background:#708090;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 490px;
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #708090;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #708090;
+}
+
+.loginbox button
+{
+
+border: none;
+    outline: none;
+    height: 40px;
+    width:80px;
+    background: #708090;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+.loginbox button:hover
+{
+
+ cursor: pointer;
+    background: #708090;
+    color: #000;
+
+}
+
+</style>
+</head>
+
+<body>              <button    > <B><a href="adfeat1.html">BACK</B> </a></button>
+
+        <form action="update_milk.jsp" method="post">
+
+    <div class="loginbox">
+ 
+          <h1>UPDATE MILK DETAILS</h1>
+        
+            <p>SAMPLE ID</p>
+            <input type="text" name="samp_id" placeholder="Enter sample ID">
+            <p>FAT</p>
+            <input type="text" name="fat" placeholder="Enter fat(%)">
+                        <p>PRICE</p>
+            
+                        <input type="text" name="price" placeholder="Enter price(Rs)">
+                        
+            
+            <input type="submit" name="submit" value="UPDATE"/>
+        
+            </div>
+        </form>
+        
+  
+</body>
+
+</html>
